@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <%- include('./partials/head') %>
+
+  <body>
+    <%- include('./partials/header') %>
+    <main>
+      <section class="detail_imagenes">
+        <img src="/images/products/<%= img1 %>" alt="First slide" />
+        <img src="/images/products/<%= img2 %>" alt="First slide" />
+        <hr>
+      </section>
+      <section class="detail_descripcion">
+          <h2><%= name %> </h2>
+          <h3>Descripción</h3>
+          <h4><%= description %> </h4>
+          <h2>u$s <%= price %> </h2>
+          <button class="boton_comprar">LO QUIERO! <span class="iconify" data-icon="fa-regular:smile"></span></button>
+      </section>
+
+    </main>
+
+    <%- include('./partials/footer') %>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+[
+    {"id": 1,
+        "name": "Plumper made me glow",
+        "price": 100, 
+        "description": "Brillo labial efecto glossy iridiscente", 
+        "category": 1 ,
+        "img1": "plump.JPG",
+        "img2": "plump2.JPG"
+}, 
+  {"id": 2,
+        "name": "Máscara de arcilla rosa self love all day",
+        "price": 200, 
+        "description": "Máscara de arcilla rosa Self love all day", 
+        "category": 1 , 
+        "img1": "mascarilla.JPG",
+        "img2": "mascarilla2.JPG"
+}
+, 
+  {"id": 3,
+        "name": "Paleta de sombras natural glow signature collection",
+        "price": 300, 
+        "description": "Brillo labial efecto glossy iridiscente", 
+        "category": 1 , 
+        "img1": "paleta.JPG",
+        "img2": "paleta2.JPG"
+
+}
+, 
+  {"id": 4,
+        "name": "Prep priming skin saver",
+        "price": 150, 
+        "description": "Brillo labial efecto glossy iridiscente", 
+        "category": 1 
+        , 
+        "img1": "skincare.JPG",
+        "img2": "skincare2.JPG"
+},
+{"id": 5,
+    "name": "Scrunchies set monocromo",
+    "price": 50, 
+    "description": "Set de 5 scrunchies en monocromo y mix de texturas", 
+    "category": 2 ,
+    "img1": "scrunchi.JPG",
+    "img2": "scrunchi2.JPG"
+}, 
+{"id": 6,
+    "name": "Vincha trenzada",
+    "price": 75, 
+    "description": "Vincha rígida puffy trenzada", 
+    "category": 2 , 
+    "img1": "vincha.JPG",
+    "img2": "vincha2.JPG"
+}
+, 
+{"id": 7,
+    "name": "Bandolera matelasseada",
+    "price": 300, 
+    "description": "Bandolera de cuerina con textura matelasseada. Con correa regulable.", 
+    "category": 2 , 
+    "img1": "bandolera.JPG",
+    "img2": "bandolera2.JPG"
+
+}
+, 
+{"id": 8,
+    "name": "Billetera color block",
+    "price": 150, 
+    "description": "Cierre circundante. Multiples compartimentos internos y ranuras para tarjetas", 
+    "category": 2 
+    , 
+    "img1": "billetera.JPG",
+    "img2": "billetera2.JPG"
+}
+
+]

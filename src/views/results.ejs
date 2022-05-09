@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<%- include('./partials/head') %>
+
+<body>
+    <%- include('./partials/header') %>
+    <main>
+        <h2>Resultados para la busqueda: <span>"<%= keyword %>" </span></h2>
+
+        <% if (resultados.length>0) { %>
+
+        <section class="d-flex flex-wrap">
+            <% resultados.forEach(({name, price, description, img1, id})=> { %>
+            <a class="imagen_link" href="/products/detail/<%= id %> ">
+                <article class="tarjeta">
+                    <div>
+                        <div class="card_imagenes">
+                            <div class="card_imagenes_imagen">
+                                <img src="/images/products/<%= img1 %> " alt="" />
+                            </div>
+                            <img class="newIcon" src="/images/soldout.png" alt="" />
+                        </div>
+                        <div class="card_contenido">
+                            <h3><%= name %> </h3>
+                            <h2> U$s<%= price %> </h2>
+                        </div>
+                    </div>
+            </a>
+            </article>
+
+        </section>
+        <% }) %>
+        <% } else { %>
+            <div class="alert alert-info" role="alert">
+                <h3>NO HAY PRODUCTOS QUE COINCIDAN CON LA BUSQUEDA</h3>
+              </div>
+
+       
+        <% } %>
+
+
+
+
+
+
+    </main>
+
+    <%- include('./partials/footer') %>
+</body>
+
+</html>

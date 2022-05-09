@@ -1,0 +1,58 @@
+.makeup{
+    background-image: url('/images/makeup.jpg');
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+   
+}
+.accesories{
+    background-image: url('/images/accesories.jpg');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+
+}
+.boton_shopnow{
+    background-color: aliceblue; 
+    border: none;
+    border-radius: 15px;
+    padding: 1vh 2vh ;
+    color: black;
+}
+
+.makeup_accesories{
+    display: flex;
+    flex-direction: column;
+    height: 1300px;
+    justify-content: space-evenly;
+}
+.makeup_accesories h3{
+    color: white;
+    font-size: 10vh;
+}
+.for_all{
+    background-image: url('/images/forall.JPG');
+    height: 80vh;
+    background-size: cover;
+}
+.buscador{
+    background-color: palevioletred;
+    display: flex;
+    height: 30vh;
+    align-items: center;
+}
+.agregar_producto{
+    background-image: url('/images/slide5.jpeg');
+    height: 30vh;
+    text-align: center;
+
+
+}

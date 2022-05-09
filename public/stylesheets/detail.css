@@ -1,0 +1,16 @@
+.detail_descripcion h2{
+    font-weight:400;
+}
+.detail_descripcion{
+    padding:  0 2vw;
+
+}
+.detail_descripcion h3{
+    font-weight:500;
+}
+.detail_descripcion h4{
+    font-weight:200;
+}
+.boton_comprar{
+    padding: 1vw;
+}

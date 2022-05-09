@@ -1,0 +1,62 @@
+
+header{
+    /* position: fixed;
+    z-index: 100;
+    top: 0; */
+    background-color: aliceblue;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.cuotas {
+    background-color: rgb(218, 170, 218);
+    height: 50px;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+
+}
+.header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+header .iconify{
+    height: 50px;
+    width: 50px;
+}
+.header ul {
+    display: flex;
+   justify-content: flex-end;
+   height: 100%;
+  
+  
+}
+.header ul li{
+  
+
+list-style: none;
+
+}
+.header ul li a{
+  color: black;
+   
+    
+}
+.menu{
+    width: 10%;
+}
+.logo{
+    width: 40%;
+
+}
+.logo img{
+    width: 80%;
+}
+
+.lista_nav{
+    width: 50%;
+ 
+}

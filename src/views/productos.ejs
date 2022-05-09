@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<%- include('./partials/head') %>
+
+<body>
+  <%- include('./partials/header') %>
+  <main>
+    <section class="d-flex flex-wrap">
+      
+        <% productos.forEach(({name, price, description, img1, id})=> { %>
+          <a  class="imagen_link" href="/products/detail/<%= id %> ">
+        <article class="tarjeta">
+          <div>
+            <div class="card_imagenes">
+              <div class="card_imagenes_imagen">
+                <img src="/images/products/<%= img1 %> " alt="" />
+              </div>
+              <img class="newIcon" src="/images/soldout.png" alt="" />
+            </div>
+            <div class="card_contenido">
+              <h3><%= name %> </h3>
+              <h2><%= price %> </h2>
+            </div>
+          </div>
+      </a>
+      </article>
+
+      <% }) %>
+
+
+
+    </section>
+  </main>
+
+  <%- include('./partials/footer') %>
+</body>
+
+</html>

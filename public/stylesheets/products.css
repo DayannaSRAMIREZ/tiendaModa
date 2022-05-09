@@ -1,0 +1,42 @@
+.newIcon{
+    width: 3vw;
+    position: absolute;
+    bottom: 1vh;
+    left: 1vh;
+}
+.card_imagenes{
+    position: relative;
+}
+.card_imagenes{
+    width: 200px;
+}
+.tarjeta{
+    width: 50vw;
+ 
+}
+.tarjeta h3{
+    font-weight:bolder;
+ 
+}
+.tarjeta h2{
+    font-weight:bolder;
+ 
+}
+.card_imagenes_imagen  img{
+    margin-left: 0.5vw;
+    width:49vw;
+    height: 45vw;
+    
+}
+.card_contenido{
+    text-align: center;
+}
+.card_contenido a{
+    text-decoration: none;
+}
+.imagen_link{
+    text-decoration: none;
+    color: black;
+
+    
+}
