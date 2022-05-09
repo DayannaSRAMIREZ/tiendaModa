@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<%- include('./partials/head') %>
+
+<body>
+    <%- include('./partials/header') %>
+
+    <main class="main_form_add">
+        <form action="" method="POST" class="carga_producto">
+            <h2>Agregar producto</h2>
+            <div>
+                <label for="name">Nombre producto</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="price">Precio</label>
+                <input type="number" name="price" id="price">
+            </div>
+    
+           
+            <div>
+                <label for="category">Categoria</label>
+                <select name="category">
+                
+                    <option hidden selected>Seleccionar una categoria</option>
+                    <option value="1">Make up</option>
+                    <option value="2">Accesories</option>
+
+                  </select>
+            </div>
+            <div>
+                <label for="description">Descripción</label>
+             <textarea class="textarea" name="description" rows="10" cols="30" placeholder="Colque una descripción del producto"></textarea>
+            </div>
+             
+            <button type="submit">Agregar</button>
+            <button type="reset">Borrar</button>
+           
+        </form>
+
+    </main>
+    <%- include('./partials/footer') %>
+</body>
+
+</html>

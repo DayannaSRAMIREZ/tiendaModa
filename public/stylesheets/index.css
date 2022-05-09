@@ -48,11 +48,39 @@
     display: flex;
     height: 30vh;
     align-items: center;
+    justify-content: center;
+}
+.buscador input{
+   
+    width: 350px;
+    height: 100px;
+    border-radius: 5px;
+    border: none; 
+  
+}
+.buscador button{
+    width: 130px; 
+    border-radius: 5px;
+    height: 100px;
+    font-size: 20px;
+    background-color: rgb(223, 192, 223);
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
 }
 .agregar_producto{
     background-image: url('/images/slide5.jpeg');
     height: 30vh;
     text-align: center;
+padding-top: 8vh;
+  
 
-
+}
+.agregar_producto a{
+   color: white;
+   font-size: 100px;
+   text-decoration: none;
+   font-weight: 300;
+   
+   
 }
